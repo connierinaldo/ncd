@@ -17,36 +17,36 @@ Development of this collections-level data resource also facilitates further dev
 * Data quality assessment
 
 ## Challenges
-* tracking undigitized collections (need to discover them first)
-* allow / deal with merging / splitting collections
-* it is suggested that "we" authoritatively manage the IDs necessary to implement this. Will need to use contextual clues embedded in records to disambiguate.
-* exactly which parts of these records need to be (must be) machine readable?
+* tracking undigitized collections requires discovering them and then adding metadata about them.
+*  It will be necessary to identify how to effectively merge or split collections into appropriate entities
+* IDs must be authoritatively managed  to implement NCD effectively. Will need to use contextual clues embedded in records to disambiguate.
+* Identifying which parts of these records must be machine readable
 example: collectionCodes confusion, who are the contacts for what purpose
-* prototype. Will there be a public interface for humans to update? Some (most?) of this will be via an API - not human-mediated. So how do these fit / link so everyone can fulfill their role.
+* prototype.Most activity will be via an API that is not human-mediated.  However, it may be necessary to develop a public interface for humans to update. Linking the API and public interface will be necessary so everyone can fulfill their role.
 * access / curatorial control: Authorization (Authentication), Curation, Accreditation
-* authority. Who are the authors of this data?
-* life-cycle issues. what can we learn about life-cycle issues from the publishers?
-* collection outreach / invitation. We will need carrots / incentives to invite / include people in this endeavor. We need a model (is there one)?
-* can we use this as a way to bootstrap curation of collections data? (future)
+* authority:  Data authors must be identified.
+* life-cycle issues must be reviewed.   Publishers and data management best practices models will provide insight.
+* collection outreach / invitation. We will need carrots / incentives to invite / include people in this endeavor. We need a model that provides incentives to provide these activities. 
+* This may be used as a way to bootstrap curation of collections data in the future.  Plan for this.
 
 ## Responsibilities by Task Groups
 * Use Cases group (Barb Thiers): gather and evaluate. Gathering done (not exhaustive). Use cases don’t need to be comprehensive. Barb notes it would be good to figure out how to identify compelling collections (for conservation, CITES, transfer of material, discovering which are at risk, etc). These use cases assist with scoping the data standard. Those wishing to help include: Barbara Thiers, Jana Hoffmann, Carolyn Sheffield, and Anissa Lybaert. (Perhaps Connie Rinaldo too).
-* Next - Update mappings and crosswalks between other relevant standards such as (ABCD, EML, GRBIO, IH, iDigBio, GBIF). Jana, Falko, (others?) will walk through this exercise to make sure we use DwC, ABCD, ABCD-EFG where appropriate.
-* Hypothetical datasets (Dag E?)
-* Drafting this charter
+* Next - Update mappings and crosswalks between other relevant standards such as (ABCD, EML, GRBIO, IH, iDigBio, GBIF). Jana Hoffman and others will walk through this exercise to make sure we use DwC, ABCD, ABCD-EFG where appropriate.
+* Hypothetical datasets (Dag E is an example)
+* Draft this charter
 * Update the standard
 
 ## Organization
 * Meet online every other month (or as needed)
 * Two co-conveners
 * Subcommittees to take on tasks as needed
-  * Use Cases group (Barb Thiers)
+  * Use Cases group Barb Thiers has volunteered.
     * See [Use cases](https://github.com/tdwg/ncd/wiki/Use-Cases) gathered and added to the wiki
-  * Update mappings and crosswalks (Jana, Falko, ...)
+  * Update mappings and crosswalks. Jana Hoffmann, MfN Berlin, and others will provide insights here.
     * Some of this is done. see [crosswalks](https://github.com/tdwg/ncd/wiki/Crosswalks)
-  * Hypothetical datasets (Dag E?)
-  * Document data-sharing standard changes needed to implement (DwC-A changes? IPT changes?, etc)
-  * Drafting this charter
+  * Hypothetical datasets (Dag E is an example)
+  * Document data-sharing standard changes needed to implement (DwC-A changes and IPT changes are examples)
+  * Draft this charter
     * Done
 
 ## Membership
